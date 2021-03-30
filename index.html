@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Une Recette Par Jour </title>
+
+		<!-- META -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="The Useless Web Button... take me somewhere... useless">
+
+		<!-- CSS -->
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+
+		<!-- JS -->
+		<script type="text/javascript" src="js/uselessweb.js?v=1"></script>
+		<script type="text/javascript" src="js/libs/swfobject.js"></script>
+		<script type="text/javascript" src="js/libs/utils.js"></script>
+
+	</head>
+	<body>
+
+		<hgroup>
+			<h1> UNE </h1>
+			<h2 id='joint'> NOUVELLE </h2>
+			<h3> RECETTE </h3>
+			<h4> PAR JOUR </h4>
+			<h5>&rarr;<button id='button' onclick="randomSite()">CLIQUE</button>&larr;</h5>
+			<script>
+   			 var sites = [
+        			'http://www.amandinecooking.com/blanquette-de-veau-au-cookeo.html',
+        			'http://petitbohnium.over-blog.com/2021/03/poulet-a-l-espagnole-au-cookeo.html',
+        			'https://ohlagourmande.com/2021/03/29/poulet-aux-poireaux-et-colombo-au-cookeo/',
+					'https://www.chezpatchouka.com/risotto-cremeux-au-poireau-lait-de-coco/',
+					'http://petitbohnium.over-blog.com/2021/03/yakitoris-de-poulet-au-cookeo.html',
+					'http://www.chez-mamigoz.com/2021/03/magret-de-canard-aux-navets-et-kari-gosse-au-cookeo.html',
+					'http://petitbohnium.over-blog.com/2021/03/cotes-de-porc-sauce-charcutiere-au-cookeo.html',
+					'http://www.chez-mamigoz.com/2021/03/magret-de-canard-aux-navets-et-kari-gosse-au-cookeo.html',
+					'http://petitbohnium.over-blog.com/2021/03/cotes-de-porc-sauce-charcutiere-au-cookeo.html',
+					'https://lefestindedan.blogspot.com/2019/01/flan-aux-ufs-au-cookeo.html',
+					'http://alaro.over-blog.com/2021/03/lentilles-a-l-espagnole.html',
+					'https://guiguinecuisine.wordpress.com/2021/03/25/veau-a-la-basquaise-au-cookeo/',
+					'https://thermominoux.over-blog.com/2021/03/soupe-de-haricots-rouges-cookeo.html',
+					'https://www.chezpatchouka.com/chorizo-aux-pommes-de-terre-poireaux/',
+					'https://ma-cuisine-simplissime.blogspot.com/2021/03/risotto-riz-3-grains-au-cookeo.html',
+					'https://mesmeilleuresrecettesfaciles.over-blog.com/2021/03/nouvel-accessoire-cookeo.html',
+					'https://lacuisinedeboomy.com/2021/03/one-pot-pasta-au-thon-et-aux-courgettes.html',
+					'https://www.amandinecooking.com/salade-de-lentilles-bacon-et-oeuf-mollet-cookeo.html',
+					'https://cuisinenfolie.blogspot.com/2021/03/veloute-de-chou-fleur-au-curry-carottes.html',
+					'http://cuisiness.fr/2021/03/marmite-de-fruits-de-mer-au-cookeo/',
+					'http://cuisiness.fr/2021/03/poires-belle-helene-au-cookeo/',
+					'http://cuisiness.fr/2021/03/couscous-au-cookeo/',
+					'http://cuisiness.fr/2021/03/jambalaya-au-cookeo/',
+					'http://www.autourdematable.com/archives/2021/03/19/38874388.html',
+					'https://www.chezpatchouka.com/topinambours-forestiers-cookeo/',
+					'http://petitbohnium.over-blog.com/2021/03/medaillons-de-filet-mignon-sauce-au-poivre-au-cookeo.html',
+					'https://mesmeilleuresrecettesfaciles.over-blog.com/2016/02/recette-de-la-blanquette-de-veau-au-cookeo.html',
+					'https://cuisine.land/gigi-cuisine-gourmande/10857-recette-poulet-a-l-ananas-au-cookeo.html',
+					'https://cuisine.land/gigi-cuisine-gourmande/10852-recette-gratin-dauphinois-au-cake-factory-et-cookeo.html',
+					'https://www.lespetitsplaisirsdedoro.fr/2021/01/risotto-orge-perle-ricotta-cookeo.html',
+					'https://www.amandinecooking.com/couscous-au-cookeo.html',
+					'http://aspirante.canalblog.com/archives/2021/03/15/38854896.html',
+					'http://petitbohnium.over-blog.com/2021/03/one-pot-pasta-au-brocolis-bacon-et-fromage-frais-au-cookeo.html',
+					'https://www.chezpatchouka.com/saute-de-porc-a-la-biere-au-cookeo/',
+					'http://petitbohnium.over-blog.com/2021/03/goulash-de-boeuf-au-cookeo.html',
+					'https://cuisine.land/gigi-cuisine-gourmande/11045-recette-courgettes-au-lait-de-coco-avec-le-cookeo.html'
+    			];
+
+    			function randomSite() {
+        			var i = parseInt(Math.random() * sites.length);
+        			location.href = sites[i];
+    			}
+			</script>
+		</hgroup>
+
+ 		<div class='sharing'>
+
+ 			<!-- Personal -->
+ 			<span class='text'>Maman, je t'aime <i></i> - Dev par <a href='https://u.geshii.moe'>Geshi</a> - <a href='http://twitter.com/geshiosu'>@geshiosu</a></a></span>
+		</div>
+	</body>
+</html>
